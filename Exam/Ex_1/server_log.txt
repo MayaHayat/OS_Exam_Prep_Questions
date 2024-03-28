@@ -1,0 +1,12 @@
+Ellipse 1: Center (83.00, 86.00), Radius 27.00, Coverage 2290.22
+Ellipse 1: Center (83.00, 86.00), Radius 27.00, Coverage 2290.22
+Ellipse 2: Center (15.00, 93.00), Radius 35.00, Coverage 3848.45
+Ellipse 3: Center (86.00, 92.00), Radius 49.00, Coverage 7542.96
+Ellipse 4: Center (21.00, 62.00), Radius 27.00, Coverage 2290.22
+Ellipse 5: Center (90.00, 59.00), Radius 13.00, Coverage 530.93
+Ellipse 6: Center (26.00, 40.00), Radius 26.00, Coverage 2123.72
+Ellipse 7: Center (72.00, 36.00), Radius 11.00, Coverage 380.13
+Ellipse 8: Center (68.00, 67.00), Radius 29.00, Coverage 2642.08
+Ellipse 9: Center (82.00, 30.00), Radius 12.00, Coverage 452.39
+Ellipse 10: Center (23.00, 67.00), Radius 35.00, Coverage 3848.45
+Messages received: 10, Percentage covered: 259.45%
