@@ -67,6 +67,7 @@ int main() {
             }
         }
         printf("The sentence has %d words\n", words);
+        return 0;
     }
 
     // Unmap the shared memory object

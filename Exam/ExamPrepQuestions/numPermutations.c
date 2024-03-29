@@ -16,12 +16,12 @@ int factorial(int num){
     return (num * factorial(num - 1));
 }
 
-int permutations(Name **names, int numNames){
-    if (numNames == 0) {
+int permutations(Name **names, int people, int numNames){
+    if (people == 0) {
         return 0;
     }
 
-    int numerator = factorial(numNames);
+    int numerator = factorial(people);
     int denominator = 1;
     for (int i = 0; i < numNames; i++){
         denominator *= factorial(names[i]->count);
@@ -33,6 +33,7 @@ int permutations(Name **names, int numNames){
 int main() {
     Name *names[MAX_CHILDREN];
     int numNames = 0;
+    int numPeople = 0;
 
     char name[128];
 
@@ -49,6 +50,7 @@ int main() {
             if (strcmp(name, names[i]->name) == 0) {
                 names[i]->count++;
                 found = 1;
+                numPeople++;
                 break;
             }
         }
@@ -57,11 +59,12 @@ int main() {
             names[numNames]->name = strdup(name);
             names[numNames]->count = 1;
             numNames++;
+            numPeople++;
         }
     }
 
     // Calculate and print the number of permutations
-    printf("Number of permutations: %d\n", permutations(&names[0], numNames));
+    printf("Number of permutations: %d\n", permutations(&names[0], numPeople, numNames));
 
 
     // Output the names and their counts
