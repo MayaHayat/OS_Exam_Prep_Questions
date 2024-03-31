@@ -1,0 +1,2 @@
+Ellipse 1: Center (83.00, 86.00), Radius 27.00, Coverage 2290.22
+...Messages received: 1, Percentage covered: 22.90%
